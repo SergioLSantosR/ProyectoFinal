@@ -22,24 +22,7 @@ public class Hoja {
         }
     }
     
-//    public double evaluarFormula(String formula) {
-//        try {
-//            formula = formula.replaceAll("\\s+", "").substring(1);
-//            
-//            // Evaluar operaciones básicas: =A1+B2
-//            if (formula.matches("([A-Za-z]+\\d+)([+\\-*/])([A-Za-z]+\\d+)")) {
-//                return evaluarOperacionBasica(formula);
-//            }
-//            // Evaluar funciones: =suma(A1:B2)
-//            else if (formula.matches("(suma|resta|multi|div)\\([A-Za-z]+\\d+:[A-Za-z]+\\d+\\)")) {
-//                return evaluarFuncion(formula);
-//            }
-//        } catch (Exception e) {
-//            return 0;
-//        }
-//        return 0;
-//    }
-    
+  
     public double evaluarFormula(String formula) {
     try {
         formula = formula.replaceAll("\\s+", "").substring(1);
