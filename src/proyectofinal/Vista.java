@@ -183,38 +183,6 @@ public class Vista extends JFrame {
     }
     
     public void actualizarVista() {
-//        if (tabbedPane == null) return;
-//        
-//        tabbedPane.removeAll();
-//        
-//        for (int i = 0; i < modelo.getHojas().tamaño(); i++) {
-//            Hoja hoja = (Hoja) modelo.getHojas().obtener(i);
-//            
-//            HojaTableModel model = new HojaTableModel(hoja);
-//            JTable tablaHoja = new JTable(model);
-//            
-//            // Configurar la tabla
-//            tablaHoja.setRowHeight(25);
-//            tablaHoja.setGridColor(Color.LIGHT_GRAY);
-//            
-//            // Configurar el renderizado de celdas
-//            tablaHoja.setDefaultRenderer(Object.class, new DefaultTableCellRenderer() {
-//                @Override
-//                public Component getTableCellRendererComponent(JTable table, Object value,
-//                        boolean isSelected, boolean hasFocus, int row, int column) {
-//                    Component c = super.getTableCellRendererComponent(table, value, 
-//                            isSelected, hasFocus, row, column);
-//                    
-//                    // Resaltar celdas con fórmulas
-//                    if (!hoja.getCeldas()[row][column].getFormula().isEmpty()) {
-//                        c.setBackground(new Color(220, 240, 255));
-//                    } else {
-//                        c.setBackground(Color.WHITE);
-//                    }
-//                    
-//                    return c;
-//                }
-//            });
 
             if (tabbedPane == null) return;
     
