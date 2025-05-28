@@ -21,7 +21,7 @@ public class Hoja {
             }
         }
     }
-    
+
     public double evaluarFormula(String formula) {
     try {
         formula = formula.replaceAll("\\s+", "").substring(1);
@@ -137,4 +137,6 @@ public class Hoja {
     
     public String getNombre() { return nombre; }
     public Celda[][] getCeldas() { return celdas; }
+
 }
+

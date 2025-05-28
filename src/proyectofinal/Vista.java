@@ -1,6 +1,5 @@
 package proyectofinal;
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -278,4 +277,6 @@ public class Vista extends JFrame {
             fireTableCellUpdated(row, col);
         }
     }
+
 }
+
