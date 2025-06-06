@@ -120,5 +120,5 @@ diseñada con `Java Swing` para facilitar su uso.
 ## Créditos
 
 - Proyecto desarrollado como proyecto final del curso de Programación 3.
-- Autor: Steve Alvizures y Sergio Santos.
+- Autores: Steve Alvizures y Sergio Santos.
 - Universidad Mariano Gálvez de Guatemala.
