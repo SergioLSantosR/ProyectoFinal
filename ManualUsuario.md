@@ -23,6 +23,11 @@ diseñada con `Java Swing` para facilitar su uso.
 2. La ventana principal aparecerá con una hoja predeterminada llamada `Hoja1`.
 3. El menú principal contiene las opciones: `Archivo > Nueva Hoja` y `Archivo > Tabla hash`.
 
+| Menú    | Opción        | Descripción                                    |
+|---------|---------------|------------------------------------------------|
+| Archivo | Nueva Hoja    | Crear una nueva hoja solicitando el nombre.    |
+| Archivo | Tabla hash    | Abrir ventana para ingresar datos y generar hash.|
+
 ---
 
 ## Interfaz de Usuario
@@ -41,9 +46,10 @@ diseñada con `Java Swing` para facilitar su uso.
 
 ### Menú Superior
 
-- **Archivo**
-  - `Nueva Hoja`: Permite crear una nueva hoja. Se solicita el nombre mediante un cuadro de diálogo.
-  - `Tabla hash`: Abre una ventana donde se pueden ingresar datos, aplicar función hash y visualizar la estructura de dispersión.
+| Opción      | Función                                                      |
+|-------------|--------------------------------------------------------------|
+| Nueva Hoja  | Crear hoja nueva con nombre único ingresado por el usuario.  |
+| Tabla hash  | Abrir ventana para ingresar datos y visualizar estructura.   |.
 
 ---
 
